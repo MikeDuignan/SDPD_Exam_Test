@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>SDPD2 Exam &mdash; Atlantic Technological University</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  html, body {
+    height: 100%;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    color: #1a1a1a;
+    background: linear-gradient(135deg, #0a2540 0%, #1d3e7a 100%);
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .page {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+  }
+
+  .card {
+    background: #ffffff;
+    border-radius: 16px;
+    box-shadow: 0 30px 80px rgba(0, 0, 0, 0.35);
+    max-width: 760px;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .header {
+    background: #0a2540;
+    color: #ffffff;
+    padding: 36px 48px;
+    border-bottom: 6px solid #f5b400;
+  }
+
+  .institution {
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    opacity: 0.85;
+    margin-bottom: 8px;
+  }
+
+  .title {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: -0.5px;
+  }
+
+  .subtitle {
+    font-size: 16px;
+    margin-top: 6px;
+    opacity: 0.85;
+  }
+
+  .body {
+    padding: 36px 48px;
+  }
+
+  .section {
+    margin-bottom: 32px;
+  }
+
+  .section h2 {
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #0a2540;
+    margin-bottom: 16px;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 6px;
+  }
+
+  .section ul {
+    list-style: none;
+    padding: 0;
+  }
+
+  .section li {
+    padding: 8px 0 8px 28px;
+    position: relative;
+    font-size: 15px;
+    line-height: 1.55;
+  }
+
+  .section li::before {
+    content: "\2713";
+    color: #1d3e7a;
+    font-weight: 700;
+    position: absolute;
+    left: 0;
+    top: 8px;
+  }
+
+  .warning li::before {
+    content: "\26A0";
+    color: #c75300;
+  }
+
+  .button-row {
+    text-align: center;
+    margin-top: 12px;
+  }
+
+  .begin-btn {
+    display: inline-block;
+    background: #0a2540;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 18px 56px;
+    border-radius: 10px;
+    font-size: 18px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: background 0.15s ease, transform 0.1s ease;
+    border: none;
+    cursor: pointer;
+  }
+
+  .begin-btn:hover {
+    background: #1d3e7a;
+  }
+
+  .begin-btn:active {
+    transform: translateY(1px);
+  }
+
+  .footer {
+    text-align: center;
+    margin-top: 24px;
+    font-size: 12px;
+    color: rgba(255, 255, 255, 0.6);
+  }
+</style>
+</head>
+<body>
+  <div class="page">
+    <div class="card">
+      <div class="header">
+        <div class="institution">Atlantic Technological University</div>
+        <div class="title">SDPD2 Programming Exam</div>
+        <div class="subtitle">Software Design and Programming Development &mdash; Year 2</div>
+      </div>
+
+      <div class="body">
+        <div class="section">
+          <h2>Before You Begin</h2>
+          <ul>
+            <li>Have your student ID ready &mdash; you may be asked to verify identity.</li>
+            <li>Save your work frequently. TextPad is permitted for writing Java code.</li>
+            <li>Use the <strong>cmd window</strong> to compile and run your code (<code>javac</code> and <code>java</code>).</li>
+            <li>The Calculator and File Explorer are available if you need them.</li>
+          </ul>
+        </div>
+
+        <div class="section warning">
+          <h2>Exam Rules</h2>
+          <ul>
+            <li>You may not access any other websites, applications, or files during the exam.</li>
+            <li>Internet, OneDrive, messaging apps, and screen recording are blocked.</li>
+            <li>If you experience a technical issue, raise your hand or contact your invigilator.</li>
+            <li>Closing this exam environment without permission may invalidate your attempt.</li>
+          </ul>
+        </div>
+
+        <div class="button-row">
+          <a class="begin-btn" href="https://vlegalwaymayo.atu.ie/course/view.php?id=10369">Begin Exam</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer">
+      Atlantic Technological University &middot; Department of Computing
+    </div>
+  </div>
+</body>
+</html>
